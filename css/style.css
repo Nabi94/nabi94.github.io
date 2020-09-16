@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+
+.main_menu {
+    background-color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li a.active {
+    background-color:red
+}
+
+li a:hover:not(.active){
+    background-color: red;
+}
+@media screen and (max-width:600px){
+    ul li{
+        float:none;
+    }
+}
