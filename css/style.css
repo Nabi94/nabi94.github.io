@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -9,11 +11,13 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    
 
 }
 
 li {
     float: left;
+    border-right: white 1px solid;
 }
 
 li a {
@@ -23,13 +27,30 @@ li a {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-li a.active {
-    background-color:red
+a:hover{
+    background-color: red;
 }
 
-li a:hover:not(.active){
-    background-color: red;
+span{
+    color: white;
+   
+   vertical-align: bottom;
+    
+}
+.ala{
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+.dp-content{
+    display: none;
+    background-color: rgba(15, 0, 0, 0.3);
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown:hover .dp-content{
+    display: block;
 }
 @media screen and (max-width:600px){
     ul li{
