@@ -52,7 +52,7 @@ span{
 .dropdown:hover .dp-content{
     display: block;
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:600px){
     ul li{
         float:none;
     }
