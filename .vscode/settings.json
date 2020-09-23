@@ -1,0 +1,7 @@
+{
+    "editor.cursorSurroundingLines": 15,
+    "editor.cursorStyle": "line-thin",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorSurroundingLinesStyle": "all"
+}
