@@ -1,0 +1,14 @@
+body {
+    background-color: coral;
+}
+
+div {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto 0;
+    background-color: royalblue;
+    background-image: url("/img/small-axe.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
