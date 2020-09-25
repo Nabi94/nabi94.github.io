@@ -9,5 +9,6 @@
     },
     "peacock.color": "#42b883",
     "compile-hero.disable-compile-files-on-did-save-code": true,
-    "editor.fontFamily": "Fira Code Light"
+    "editor.fontFamily": "Fira Code Light",
+    "files.autoSave": "afterDelay"
 }
