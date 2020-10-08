@@ -19,7 +19,7 @@ body {
 
 .main_sidebar ul {
     display: inline-block;
-    
+
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -38,9 +38,10 @@ body {
 }
 
 .main_sidebar ul li a span {
-    
+
     padding: 25px;
     font-size: 25px;
+    margin: 0;
 }
 
 .sekil {
@@ -48,4 +49,18 @@ body {
     top: 25px;
     left: 230px;
     height: 730px;
+
+}
+
+.haqqinda {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    text-transform: lowercase;
+
+    display: inline-block;
+    text-align: right;
+    margin: 0;
+    margin-left: 500px;
+
 }
