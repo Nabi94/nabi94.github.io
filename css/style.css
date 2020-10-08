@@ -1,4 +1,45 @@
-p {
-    
-    font-weight: 900;
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body {
+    background-color: #0a0000;
+}
+
+.main {
+    
+    width: 1141px;
+    height: 647px;
+    background-color: #1c1e1f;
+    margin: 55px auto 0;
+}
+
+.main_sidebar ul {
+    display: inline-block;
+    border: 1px solid red;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top:80px ;
+}
+
+.main_sidebar ul li {
+    border: 1px solid red;
+    margin: 0;
+    padding: 0 0 0 0;
+}
+
+.main_sidebar ul li a:visited {
+    color: white;
+
+}
+
+.main_sidebar ul li a span {
+    border: 1px solid red;
+    padding: 25px;
+    font-size: 25px;
+}
+
