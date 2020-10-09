@@ -104,6 +104,7 @@ body {
     position: absolute;
     left:250px;
     color: #00A793;
+    opacity: 0.4;
     font-size: 36px !important;
     
 }
@@ -112,6 +113,7 @@ body {
     color: white;
     position: absolute;
     left: 270px;
+    opacity: 1;
 }
 
 .sa1 , .salam2{
@@ -121,5 +123,5 @@ body {
 
 .salam3{
     position: absolute;
-    left:270px
+    left:270px;
 }
