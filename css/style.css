@@ -55,6 +55,7 @@ body {
     padding-right: 120px;
     border-radius: 5px;
     font-size: 22px;
+    box-sizing: border-box;
 }
 .text2{
     position: absolute;
@@ -66,6 +67,7 @@ body {
     padding-right: 120px;
     border-radius: 5px;
     font-size: 22px;
+    box-sizing: border-box;
 }
 .text3{
     
@@ -75,9 +77,10 @@ body {
     font-family: Arial, Helvetica, sans-serif, 'Arial Narrow', Arial, sans-serif;
     border: 1px solid #D6D5E4;
     padding: 20px;
-    padding-right: 192px;
+    padding-right: 190px;
     border-radius: 5px;
     font-size: 22px;
+    box-sizing: border-box;
 
 }
 
@@ -88,10 +91,35 @@ body {
     font-family: Arial, Helvetica, sans-serif, 'Arial Narrow', Arial, sans-serif;
     border: 1px solid #D6D5E4;
     padding: 20px;
-    padding-right: 160px;
+    padding-right: 158px;
     border-radius: 5px;
     font-size: 22px;
     background:linear-gradient(#10BAB6,#006D6F);
     color:white;
+    box-sizing: border-box;
 
+}
+
+.material-icons{
+    position: absolute;
+    left:250px;
+    color: #00A793;
+    font-size: 36px !important;
+    
+}
+
+.salam{
+    color: white;
+    position: absolute;
+    left: 270px;
+}
+
+.sa1 , .salam2{
+    position: absolute;
+    left: 290px;
+}
+
+.salam3{
+    position: absolute;
+    left:270px
 }
