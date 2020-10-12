@@ -2,9 +2,9 @@
     flex-direction: column;
     padding-top: 1rem;
     overflow: hidden;
-    padding-bottom: 0.91rem;
+    padding-bottom: 0.5rem;
     height: 95px;
 }
 #navbar ul li{
-    padding: 0.5rem;
+    padding: 0.4rem;
 }
