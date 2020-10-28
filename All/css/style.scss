@@ -1,0 +1,116 @@
+@import "variables.scss";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#head {
+    width: 100%;
+    height: 75px;
+    background-color: $color1;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+
+    h1 {
+        color: $color2;
+        margin: 0;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        margin: 0;
+
+        li {
+
+
+            a {
+                padding: 0.8em 1.5em;
+                margin: 0 1em;
+                color: $color2;
+                text-decoration: none;
+                box-sizing: border-box;
+                border: 1px solid transparent;
+
+                &:hover {
+                    padding: 0.8em 1.5em;
+                    margin: 0 1em;
+                    background-color: rgba(255, 0, 0, 0.3);
+                    border: 1px solid black;
+                    border-radius: 3px;
+
+
+
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:768px){
+    #head{
+        width: 100%;
+        ul{
+            li{
+                a{
+                    margin: 0;
+                    padding:0.8em 1.5em;
+                    &:hover{
+                        margin: 0;
+                        padding: 0.8em 1.5em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (max-width:550px) {
+
+    #head {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 65vh;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            li {
+                padding: 1em 0.8em;
+                color: white;
+
+
+                a {
+                    margin: 0;
+                    font-size: 1.1em;
+
+
+                    &:hover {
+                        padding: 0 80px;
+                        margin: 0;
+                        border-radius: 0;
+                        background-color: rgba(100, 0, 0, 0.3);
+
+                    }
+                }
+            }
+        }
+    }
+
+
+}
