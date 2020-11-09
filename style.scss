@@ -1,32 +1,41 @@
-button:focus{
+input:focus {
     outline: none;
 }
-button{
-    background-color: rgba($color: #000000, $alpha: 0.3);
-    border-radius:0.9375rem ;
-    width: 9.375rem;
-    height: 9.375rem;
-    margin: 9.375rem auto;
-    display:block;
-    font-size: 1.5625rem;
-    color: white;
-    
 
-}
-.shadow{
-    width: 28.125rem;
-    height: 9.375rem;
-    border: 1px solid transparent;
+label {
     margin: 9.375rem auto;
-    background-color: rgba(150,0,0,0.2);
-    border-radius: 15px;
-    box-shadow: 7px 5px 5px rgba(100, 0, 0, 0.6) inset;
-    color: white;
+    width: 28.125rem;
+    height: 15.625rem;
+    display: block;
+    border-radius: 1.5625rem;
+    box-shadow: 2px 2px 6px #666;
+    font-size: 1.5625rem;
+    font-weight: 900;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
-    padding-top:3.125rem;
-    font-size: 2.8125rem;
-    text-shadow: 5px 5px 5px gray;
+    padding-top: 4.375rem;
     box-sizing: border-box;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+    background-color: rgba($color: #666, $alpha: 0.5);
+    box-shadow: 3px 3px 2px #333 inset;
+    color: white;
+    input {
+        border-radius: 15px;
+        width: 21.875rem;
+        height: 4.375rem;
+        font-size: 1.875rem;
+        color: #333;
+        box-shadow:2px 2px 2px #333 inset;  
+    }
+}
+
+@media screen and(max-width:768px) {
+    label {
+        margin:6.5625rem auto;
+        width: 15.625rem;
+        height:350px;
+    }
+
+    label input {
+        width: 13.75rem;
+    }
 }
