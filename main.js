@@ -1,3 +1,7 @@
-function lenghtOlcu(valnum){
-    document.getElementById('netice').innerHTML=valnum* 0.62137;
+
+function print() {
+    const generator = "Nabi";
+    console.log(generator);
 }
+
+print();
