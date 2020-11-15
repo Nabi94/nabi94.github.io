@@ -1,7 +1,4 @@
-
-function print() {
-    const generator = "Nabi";
-    console.log(generator);
+function btnpro(){
+    const nabi="sa]ol";
+    console.log(nabi);
 }
-
-print();
