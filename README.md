@@ -1,2 +1,2 @@
-# **this is for Practice**.</br>
+# **This is for Practice**.</br>
 [Link to site](https://nabi94.github.io/)
